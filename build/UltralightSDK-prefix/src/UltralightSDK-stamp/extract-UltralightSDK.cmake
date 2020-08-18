@@ -1,7 +1,7 @@
 # Make file names absolute:
 #
-get_filename_component(filename "/home/slzatz/ultralight-quick-start_12/build/UltralightSDK-prefix/src/ultralight-sdk-latest-linux-x64.7z" ABSOLUTE)
-get_filename_component(directory "/home/slzatz/ultralight-quick-start_12/build/SDK/" ABSOLUTE)
+get_filename_component(filename "/home/slzatz/lm_browser/build/UltralightSDK-prefix/src/ultralight-sdk-latest-linux-x64.7z" ABSOLUTE)
+get_filename_component(directory "/home/slzatz/lm_browser/build/SDK/" ABSOLUTE)
 
 message(STATUS "extracting...
      src='${filename}'

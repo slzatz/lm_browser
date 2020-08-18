@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/slzatz/ultralight-quick-start_12
+CMAKE_SOURCE_DIR = /home/slzatz/lm_browser
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/slzatz/ultralight-quick-start_12/build
+CMAKE_BINARY_DIR = /home/slzatz/lm_browser/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/lm_browser.dir/depend.make
@@ -78,55 +78,55 @@ include CMakeFiles/lm_browser.dir/flags.make
 
 CMakeFiles/lm_browser.dir/src/Browser.cpp.o: CMakeFiles/lm_browser.dir/flags.make
 CMakeFiles/lm_browser.dir/src/Browser.cpp.o: ../src/Browser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slzatz/ultralight-quick-start_12/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lm_browser.dir/src/Browser.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lm_browser.dir/src/Browser.cpp.o -c /home/slzatz/ultralight-quick-start_12/src/Browser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slzatz/lm_browser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/lm_browser.dir/src/Browser.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lm_browser.dir/src/Browser.cpp.o -c /home/slzatz/lm_browser/src/Browser.cpp
 
 CMakeFiles/lm_browser.dir/src/Browser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lm_browser.dir/src/Browser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/ultralight-quick-start_12/src/Browser.cpp > CMakeFiles/lm_browser.dir/src/Browser.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/lm_browser/src/Browser.cpp > CMakeFiles/lm_browser.dir/src/Browser.cpp.i
 
 CMakeFiles/lm_browser.dir/src/Browser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lm_browser.dir/src/Browser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/ultralight-quick-start_12/src/Browser.cpp -o CMakeFiles/lm_browser.dir/src/Browser.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/lm_browser/src/Browser.cpp -o CMakeFiles/lm_browser.dir/src/Browser.cpp.s
 
 CMakeFiles/lm_browser.dir/src/Tab.cpp.o: CMakeFiles/lm_browser.dir/flags.make
 CMakeFiles/lm_browser.dir/src/Tab.cpp.o: ../src/Tab.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slzatz/ultralight-quick-start_12/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lm_browser.dir/src/Tab.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lm_browser.dir/src/Tab.cpp.o -c /home/slzatz/ultralight-quick-start_12/src/Tab.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slzatz/lm_browser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/lm_browser.dir/src/Tab.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lm_browser.dir/src/Tab.cpp.o -c /home/slzatz/lm_browser/src/Tab.cpp
 
 CMakeFiles/lm_browser.dir/src/Tab.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lm_browser.dir/src/Tab.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/ultralight-quick-start_12/src/Tab.cpp > CMakeFiles/lm_browser.dir/src/Tab.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/lm_browser/src/Tab.cpp > CMakeFiles/lm_browser.dir/src/Tab.cpp.i
 
 CMakeFiles/lm_browser.dir/src/Tab.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lm_browser.dir/src/Tab.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/ultralight-quick-start_12/src/Tab.cpp -o CMakeFiles/lm_browser.dir/src/Tab.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/lm_browser/src/Tab.cpp -o CMakeFiles/lm_browser.dir/src/Tab.cpp.s
 
 CMakeFiles/lm_browser.dir/src/UI.cpp.o: CMakeFiles/lm_browser.dir/flags.make
 CMakeFiles/lm_browser.dir/src/UI.cpp.o: ../src/UI.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slzatz/ultralight-quick-start_12/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lm_browser.dir/src/UI.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lm_browser.dir/src/UI.cpp.o -c /home/slzatz/ultralight-quick-start_12/src/UI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slzatz/lm_browser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/lm_browser.dir/src/UI.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lm_browser.dir/src/UI.cpp.o -c /home/slzatz/lm_browser/src/UI.cpp
 
 CMakeFiles/lm_browser.dir/src/UI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lm_browser.dir/src/UI.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/ultralight-quick-start_12/src/UI.cpp > CMakeFiles/lm_browser.dir/src/UI.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/lm_browser/src/UI.cpp > CMakeFiles/lm_browser.dir/src/UI.cpp.i
 
 CMakeFiles/lm_browser.dir/src/UI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lm_browser.dir/src/UI.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/ultralight-quick-start_12/src/UI.cpp -o CMakeFiles/lm_browser.dir/src/UI.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/lm_browser/src/UI.cpp -o CMakeFiles/lm_browser.dir/src/UI.cpp.s
 
 CMakeFiles/lm_browser.dir/src/main.cpp.o: CMakeFiles/lm_browser.dir/flags.make
 CMakeFiles/lm_browser.dir/src/main.cpp.o: ../src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slzatz/ultralight-quick-start_12/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lm_browser.dir/src/main.cpp.o"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lm_browser.dir/src/main.cpp.o -c /home/slzatz/ultralight-quick-start_12/src/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/slzatz/lm_browser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/lm_browser.dir/src/main.cpp.o"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/lm_browser.dir/src/main.cpp.o -c /home/slzatz/lm_browser/src/main.cpp
 
 CMakeFiles/lm_browser.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/lm_browser.dir/src/main.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/ultralight-quick-start_12/src/main.cpp > CMakeFiles/lm_browser.dir/src/main.cpp.i
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/slzatz/lm_browser/src/main.cpp > CMakeFiles/lm_browser.dir/src/main.cpp.i
 
 CMakeFiles/lm_browser.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/lm_browser.dir/src/main.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/ultralight-quick-start_12/src/main.cpp -o CMakeFiles/lm_browser.dir/src/main.cpp.s
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/slzatz/lm_browser/src/main.cpp -o CMakeFiles/lm_browser.dir/src/main.cpp.s
 
 # Object files for target lm_browser
 lm_browser_OBJECTS = \
@@ -145,11 +145,11 @@ lm_browser: CMakeFiles/lm_browser.dir/src/main.cpp.o
 lm_browser: CMakeFiles/lm_browser.dir/build.make
 lm_browser: /usr/lib/libzmq.so
 lm_browser: CMakeFiles/lm_browser.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/slzatz/ultralight-quick-start_12/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable lm_browser"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/slzatz/lm_browser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable lm_browser"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/lm_browser.dir/link.txt --verbose=$(VERBOSE)
-	/usr/bin/cmake -E copy_directory /home/slzatz/ultralight-quick-start_12/build/SDK//bin /home/slzatz/ultralight-quick-start_12/build
-	/usr/bin/cmake -E copy_directory /home/slzatz/ultralight-quick-start_12/assets/ /home/slzatz/ultralight-quick-start_12/build/assets
-	/usr/bin/cmake -E copy_directory /home/slzatz/ultralight-quick-start_12/build/SDK//bin/resources/ /home/slzatz/ultralight-quick-start_12/build/resources
+	/usr/bin/cmake -E copy_directory /home/slzatz/lm_browser/build/SDK//bin /home/slzatz/lm_browser/build
+	/usr/bin/cmake -E copy_directory /home/slzatz/lm_browser/assets/ /home/slzatz/lm_browser/build/assets
+	/usr/bin/cmake -E copy_directory /home/slzatz/lm_browser/build/SDK//bin/resources/ /home/slzatz/lm_browser/build/resources
 
 # Rule to build all files generated by this target.
 CMakeFiles/lm_browser.dir/build: lm_browser
@@ -161,6 +161,6 @@ CMakeFiles/lm_browser.dir/clean:
 .PHONY : CMakeFiles/lm_browser.dir/clean
 
 CMakeFiles/lm_browser.dir/depend:
-	cd /home/slzatz/ultralight-quick-start_12/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/slzatz/ultralight-quick-start_12 /home/slzatz/ultralight-quick-start_12 /home/slzatz/ultralight-quick-start_12/build /home/slzatz/ultralight-quick-start_12/build /home/slzatz/ultralight-quick-start_12/build/CMakeFiles/lm_browser.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/slzatz/lm_browser/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/slzatz/lm_browser /home/slzatz/lm_browser /home/slzatz/lm_browser/build /home/slzatz/lm_browser/build /home/slzatz/lm_browser/build/CMakeFiles/lm_browser.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/lm_browser.dir/depend
 

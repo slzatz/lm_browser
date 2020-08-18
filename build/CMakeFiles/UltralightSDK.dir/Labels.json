@@ -2,34 +2,34 @@
 	"sources" : 
 	[
 		{
-			"file" : "/home/slzatz/ultralight-quick-start_12/build/CMakeFiles/UltralightSDK"
+			"file" : "/home/slzatz/lm_browser/build/CMakeFiles/UltralightSDK"
 		},
 		{
-			"file" : "/home/slzatz/ultralight-quick-start_12/build/CMakeFiles/UltralightSDK.rule"
+			"file" : "/home/slzatz/lm_browser/build/CMakeFiles/UltralightSDK.rule"
 		},
 		{
-			"file" : "/home/slzatz/ultralight-quick-start_12/build/CMakeFiles/UltralightSDK-complete.rule"
+			"file" : "/home/slzatz/lm_browser/build/CMakeFiles/UltralightSDK-complete.rule"
 		},
 		{
-			"file" : "/home/slzatz/ultralight-quick-start_12/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-install.rule"
+			"file" : "/home/slzatz/lm_browser/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-install.rule"
 		},
 		{
-			"file" : "/home/slzatz/ultralight-quick-start_12/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-mkdir.rule"
+			"file" : "/home/slzatz/lm_browser/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-mkdir.rule"
 		},
 		{
-			"file" : "/home/slzatz/ultralight-quick-start_12/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-download.rule"
+			"file" : "/home/slzatz/lm_browser/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-download.rule"
 		},
 		{
-			"file" : "/home/slzatz/ultralight-quick-start_12/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-update.rule"
+			"file" : "/home/slzatz/lm_browser/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-update.rule"
 		},
 		{
-			"file" : "/home/slzatz/ultralight-quick-start_12/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-patch.rule"
+			"file" : "/home/slzatz/lm_browser/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-patch.rule"
 		},
 		{
-			"file" : "/home/slzatz/ultralight-quick-start_12/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-configure.rule"
+			"file" : "/home/slzatz/lm_browser/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-configure.rule"
 		},
 		{
-			"file" : "/home/slzatz/ultralight-quick-start_12/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-build.rule"
+			"file" : "/home/slzatz/lm_browser/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-build.rule"
 		}
 	],
 	"target" : 

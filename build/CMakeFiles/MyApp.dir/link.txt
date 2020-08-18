@@ -1,1 +1,0 @@
-/usr/bin/c++ -rdynamic CMakeFiles/MyApp.dir/src/Browser.cpp.o CMakeFiles/MyApp.dir/src/Tab.cpp.o CMakeFiles/MyApp.dir/src/UI.cpp.o CMakeFiles/MyApp.dir/src/main.cpp.o -o MyApp   -L/home/slzatz/ultralight-quick-start_12/build/SDK/bin  -Wl,-rpath,"\${ORIGIN}" -lUltralightCore -lAppCore -lUltralight -lWebCore 

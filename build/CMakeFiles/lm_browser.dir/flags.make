@@ -4,7 +4,7 @@
 # compile CXX with /usr/bin/c++
 CXX_DEFINES = 
 
-CXX_INCLUDES = -I/home/slzatz/ultralight-quick-start_12/build/SDK/include
+CXX_INCLUDES = -I/home/slzatz/lm_browser/build/SDK/include
 
 CXX_FLAGS = -std=gnu++2a
 

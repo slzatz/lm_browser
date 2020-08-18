@@ -1,4 +1,4 @@
-/home/slzatz/ultralight-quick-start_12/build/CMakeFiles/rebuild_cache.dir
-/home/slzatz/ultralight-quick-start_12/build/CMakeFiles/edit_cache.dir
-/home/slzatz/ultralight-quick-start_12/build/CMakeFiles/lm_browser.dir
-/home/slzatz/ultralight-quick-start_12/build/CMakeFiles/UltralightSDK.dir
+/home/slzatz/lm_browser/build/CMakeFiles/rebuild_cache.dir
+/home/slzatz/lm_browser/build/CMakeFiles/edit_cache.dir
+/home/slzatz/lm_browser/build/CMakeFiles/lm_browser.dir
+/home/slzatz/lm_browser/build/CMakeFiles/UltralightSDK.dir

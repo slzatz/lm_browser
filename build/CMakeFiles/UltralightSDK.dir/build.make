@@ -62,10 +62,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/slzatz/ultralight-quick-start_12
+CMAKE_SOURCE_DIR = /home/slzatz/lm_browser
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/slzatz/ultralight-quick-start_12/build
+CMAKE_BINARY_DIR = /home/slzatz/lm_browser/build
 
 # Utility rule file for UltralightSDK.
 
@@ -83,57 +83,57 @@ CMakeFiles/UltralightSDK-complete: UltralightSDK-prefix/src/UltralightSDK-stamp/
 CMakeFiles/UltralightSDK-complete: UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-configure
 CMakeFiles/UltralightSDK-complete: UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-build
 CMakeFiles/UltralightSDK-complete: UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-install
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/slzatz/ultralight-quick-start_12/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'UltralightSDK'"
-	/usr/bin/cmake -E make_directory /home/slzatz/ultralight-quick-start_12/build/CMakeFiles
-	/usr/bin/cmake -E touch /home/slzatz/ultralight-quick-start_12/build/CMakeFiles/UltralightSDK-complete
-	/usr/bin/cmake -E touch /home/slzatz/ultralight-quick-start_12/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-done
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/slzatz/lm_browser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Completed 'UltralightSDK'"
+	/usr/bin/cmake -E make_directory /home/slzatz/lm_browser/build/CMakeFiles
+	/usr/bin/cmake -E touch /home/slzatz/lm_browser/build/CMakeFiles/UltralightSDK-complete
+	/usr/bin/cmake -E touch /home/slzatz/lm_browser/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-done
 
 UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-install: UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/slzatz/ultralight-quick-start_12/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'UltralightSDK'"
-	cd /home/slzatz/ultralight-quick-start_12/build/SDK && /usr/bin/cmake -E echo_append
-	cd /home/slzatz/ultralight-quick-start_12/build/SDK && /usr/bin/cmake -E touch /home/slzatz/ultralight-quick-start_12/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-install
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/slzatz/lm_browser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "No install step for 'UltralightSDK'"
+	cd /home/slzatz/lm_browser/build/SDK && /usr/bin/cmake -E echo_append
+	cd /home/slzatz/lm_browser/build/SDK && /usr/bin/cmake -E touch /home/slzatz/lm_browser/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-install
 
 UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-mkdir:
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/slzatz/ultralight-quick-start_12/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'UltralightSDK'"
-	/usr/bin/cmake -E make_directory /home/slzatz/ultralight-quick-start_12/build/SDK/
-	/usr/bin/cmake -E make_directory /home/slzatz/ultralight-quick-start_12/build/SDK/
-	/usr/bin/cmake -E make_directory /home/slzatz/ultralight-quick-start_12/build/UltralightSDK-prefix
-	/usr/bin/cmake -E make_directory /home/slzatz/ultralight-quick-start_12/build/UltralightSDK-prefix/tmp
-	/usr/bin/cmake -E make_directory /home/slzatz/ultralight-quick-start_12/build/UltralightSDK-prefix/src/UltralightSDK-stamp
-	/usr/bin/cmake -E make_directory /home/slzatz/ultralight-quick-start_12/build/UltralightSDK-prefix/src
-	/usr/bin/cmake -E make_directory /home/slzatz/ultralight-quick-start_12/build/UltralightSDK-prefix/src/UltralightSDK-stamp
-	/usr/bin/cmake -E touch /home/slzatz/ultralight-quick-start_12/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-mkdir
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/slzatz/lm_browser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Creating directories for 'UltralightSDK'"
+	/usr/bin/cmake -E make_directory /home/slzatz/lm_browser/build/SDK/
+	/usr/bin/cmake -E make_directory /home/slzatz/lm_browser/build/SDK/
+	/usr/bin/cmake -E make_directory /home/slzatz/lm_browser/build/UltralightSDK-prefix
+	/usr/bin/cmake -E make_directory /home/slzatz/lm_browser/build/UltralightSDK-prefix/tmp
+	/usr/bin/cmake -E make_directory /home/slzatz/lm_browser/build/UltralightSDK-prefix/src/UltralightSDK-stamp
+	/usr/bin/cmake -E make_directory /home/slzatz/lm_browser/build/UltralightSDK-prefix/src
+	/usr/bin/cmake -E make_directory /home/slzatz/lm_browser/build/UltralightSDK-prefix/src/UltralightSDK-stamp
+	/usr/bin/cmake -E touch /home/slzatz/lm_browser/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-mkdir
 
 UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-download: UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-urlinfo.txt
 UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-download: UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-mkdir
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/slzatz/ultralight-quick-start_12/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'UltralightSDK'"
-	/usr/bin/cmake -P /home/slzatz/ultralight-quick-start_12/build/UltralightSDK-prefix/src/UltralightSDK-stamp/download-UltralightSDK.cmake
-	/usr/bin/cmake -P /home/slzatz/ultralight-quick-start_12/build/UltralightSDK-prefix/src/UltralightSDK-stamp/verify-UltralightSDK.cmake
-	/usr/bin/cmake -P /home/slzatz/ultralight-quick-start_12/build/UltralightSDK-prefix/src/UltralightSDK-stamp/extract-UltralightSDK.cmake
-	/usr/bin/cmake -E touch /home/slzatz/ultralight-quick-start_12/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-download
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/slzatz/lm_browser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Performing download step (download, verify and extract) for 'UltralightSDK'"
+	/usr/bin/cmake -P /home/slzatz/lm_browser/build/UltralightSDK-prefix/src/UltralightSDK-stamp/download-UltralightSDK.cmake
+	/usr/bin/cmake -P /home/slzatz/lm_browser/build/UltralightSDK-prefix/src/UltralightSDK-stamp/verify-UltralightSDK.cmake
+	/usr/bin/cmake -P /home/slzatz/lm_browser/build/UltralightSDK-prefix/src/UltralightSDK-stamp/extract-UltralightSDK.cmake
+	/usr/bin/cmake -E touch /home/slzatz/lm_browser/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-download
 
 UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-update: UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-download
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/slzatz/ultralight-quick-start_12/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'UltralightSDK'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/slzatz/lm_browser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "No update step for 'UltralightSDK'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/slzatz/ultralight-quick-start_12/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-update
+	/usr/bin/cmake -E touch /home/slzatz/lm_browser/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-update
 
 UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-patch: UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-download
 UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-patch: UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-update
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/slzatz/ultralight-quick-start_12/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'UltralightSDK'"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/slzatz/lm_browser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "No patch step for 'UltralightSDK'"
 	/usr/bin/cmake -E echo_append
-	/usr/bin/cmake -E touch /home/slzatz/ultralight-quick-start_12/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-patch
+	/usr/bin/cmake -E touch /home/slzatz/lm_browser/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-patch
 
 UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-configure: UltralightSDK-prefix/tmp/UltralightSDK-cfgcmd.txt
 UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-configure: UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-update
 UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-configure: UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-patch
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/slzatz/ultralight-quick-start_12/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No configure step for 'UltralightSDK'"
-	cd /home/slzatz/ultralight-quick-start_12/build/SDK && /usr/bin/cmake -E echo_append
-	cd /home/slzatz/ultralight-quick-start_12/build/SDK && /usr/bin/cmake -E touch /home/slzatz/ultralight-quick-start_12/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-configure
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/slzatz/lm_browser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "No configure step for 'UltralightSDK'"
+	cd /home/slzatz/lm_browser/build/SDK && /usr/bin/cmake -E echo_append
+	cd /home/slzatz/lm_browser/build/SDK && /usr/bin/cmake -E touch /home/slzatz/lm_browser/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-configure
 
 UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-build: UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-configure
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/slzatz/ultralight-quick-start_12/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No build step for 'UltralightSDK'"
-	cd /home/slzatz/ultralight-quick-start_12/build/SDK && /usr/bin/cmake -E echo_append
-	cd /home/slzatz/ultralight-quick-start_12/build/SDK && /usr/bin/cmake -E touch /home/slzatz/ultralight-quick-start_12/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/slzatz/lm_browser/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "No build step for 'UltralightSDK'"
+	cd /home/slzatz/lm_browser/build/SDK && /usr/bin/cmake -E echo_append
+	cd /home/slzatz/lm_browser/build/SDK && /usr/bin/cmake -E touch /home/slzatz/lm_browser/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-build
 
 UltralightSDK: CMakeFiles/UltralightSDK
 UltralightSDK: CMakeFiles/UltralightSDK-complete
@@ -158,6 +158,6 @@ CMakeFiles/UltralightSDK.dir/clean:
 .PHONY : CMakeFiles/UltralightSDK.dir/clean
 
 CMakeFiles/UltralightSDK.dir/depend:
-	cd /home/slzatz/ultralight-quick-start_12/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/slzatz/ultralight-quick-start_12 /home/slzatz/ultralight-quick-start_12 /home/slzatz/ultralight-quick-start_12/build /home/slzatz/ultralight-quick-start_12/build /home/slzatz/ultralight-quick-start_12/build/CMakeFiles/UltralightSDK.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/slzatz/lm_browser/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/slzatz/lm_browser /home/slzatz/lm_browser /home/slzatz/lm_browser/build /home/slzatz/lm_browser/build /home/slzatz/lm_browser/build/CMakeFiles/UltralightSDK.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/UltralightSDK.dir/depend
 

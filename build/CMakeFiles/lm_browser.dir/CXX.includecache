@@ -6,9 +6,9 @@
 
 #IncludeRegexTransform: 
 
-/home/slzatz/ultralight-quick-start_12/src/Browser.cpp
+/home/slzatz/lm_browser/src/Browser.cpp
 Browser.h
-/home/slzatz/ultralight-quick-start_12/src/Browser.h
+/home/slzatz/lm_browser/src/Browser.h
 Ultralight/platform/Platform.h
 -
 Ultralight/platform/Config.h
@@ -28,7 +28,7 @@ thread
 chrono
 -
 
-/home/slzatz/ultralight-quick-start_12/src/Browser.h
+/home/slzatz/lm_browser/src/Browser.h
 AppCore/AppCore.h
 -
 string
@@ -38,9 +38,17 @@ filesystem
 chrono
 -
 UI.h
-/home/slzatz/ultralight-quick-start_12/src/UI.h
+/home/slzatz/lm_browser/src/UI.h
 
-/home/slzatz/ultralight-quick-start_12/src/Tab.h
+/home/slzatz/lm_browser/src/Tab.cpp
+Tab.h
+/home/slzatz/lm_browser/src/Tab.h
+UI.h
+/home/slzatz/lm_browser/src/UI.h
+sstream
+-
+
+/home/slzatz/lm_browser/src/Tab.h
 AppCore/AppCore.h
 -
 Ultralight/Listener.h
@@ -48,15 +56,25 @@ Ultralight/Listener.h
 string
 -
 
-/home/slzatz/ultralight-quick-start_12/src/UI.h
+/home/slzatz/lm_browser/src/UI.cpp
+sstream
+-
+UI.h
+/home/slzatz/lm_browser/src/UI.h
+
+/home/slzatz/lm_browser/src/UI.h
 AppCore/AppCore.h
 -
 Tab.h
-/home/slzatz/ultralight-quick-start_12/src/Tab.h
+/home/slzatz/lm_browser/src/Tab.h
 map
 -
 memory
 -
+
+/home/slzatz/lm_browser/src/main.cpp
+Browser.h
+/home/slzatz/lm_browser/src/Browser.h
 
 SDK/include/AppCore/App.h
 Defines.h
