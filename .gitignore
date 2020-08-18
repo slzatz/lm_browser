@@ -2,3 +2,4 @@ config.*
 *.ini
 *.so
 **/build/CMakeFiles/
+lm_browser
