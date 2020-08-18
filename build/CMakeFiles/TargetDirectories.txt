@@ -1,4 +1,0 @@
-/home/slzatz/lm_browser/build/CMakeFiles/rebuild_cache.dir
-/home/slzatz/lm_browser/build/CMakeFiles/edit_cache.dir
-/home/slzatz/lm_browser/build/CMakeFiles/lm_browser.dir
-/home/slzatz/lm_browser/build/CMakeFiles/UltralightSDK.dir
