@@ -1,0 +1,13 @@
+# Target labels
+ UltralightSDK
+# Source files and their labels
+/home/slzatz/ultralight-quick-start_12/build/CMakeFiles/UltralightSDK
+/home/slzatz/ultralight-quick-start_12/build/CMakeFiles/UltralightSDK.rule
+/home/slzatz/ultralight-quick-start_12/build/CMakeFiles/UltralightSDK-complete.rule
+/home/slzatz/ultralight-quick-start_12/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-install.rule
+/home/slzatz/ultralight-quick-start_12/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-mkdir.rule
+/home/slzatz/ultralight-quick-start_12/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-download.rule
+/home/slzatz/ultralight-quick-start_12/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-update.rule
+/home/slzatz/ultralight-quick-start_12/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-patch.rule
+/home/slzatz/ultralight-quick-start_12/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-configure.rule
+/home/slzatz/ultralight-quick-start_12/build/UltralightSDK-prefix/src/UltralightSDK-stamp/UltralightSDK-build.rule
